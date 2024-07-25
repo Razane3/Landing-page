@@ -1,6 +1,14 @@
 let i = document.querySelector(".i");
 let list = document.querySelector(".list"); 
 //let body = document.getElementsByTagName("body")
+
+
+function phone(ph,color){
+    i.src = ph;
+    document.body.style.backgroundColor = color;
+}
+// this wasnt dynamic at all +_+ !! ::
+/*
 list.addEventListener("click", (e) => {
  i.src = e.target.src;
  if(e.target.src.includes("0.png")){ 
@@ -19,3 +27,4 @@ list.addEventListener("click", (e) => {
     document.body.style.backgroundColor = "rgb(215, 71, 71)";
  }
 });
+*/
